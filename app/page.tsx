@@ -5,10 +5,25 @@ import { useState } from "react";
 
 export default function Home() {
   const [showPopup, setShowPopup] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
     <div className="relative min-h-screen">
-      <div className="ocean-background" />
+      <div className="ocean-background-container">
+        {!imageLoaded && (
+          <div className="absolute inset-0 bg-seacrop-dark animate-pulse" />
+        )}
+        <Image
+          src="/images/wave bg.jpg"
+          alt="Ocean waves background"
+          fill
+          priority
+          quality={75}
+          className={`object-cover transition-opacity duration-700 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+          sizes="100vw"
+          onLoad={() => setImageLoaded(true)}
+        />
+      </div>
       <div className="ocean-overlay" />
       
       <main className="relative z-10 min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
