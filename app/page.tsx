@@ -10,19 +10,21 @@ export default function Home() {
   return (
     <div className="relative min-h-screen">
       <div className="ocean-background-container">
-        {!imageLoaded && (
-          <div className="absolute inset-0 bg-seacrop-dark animate-pulse" />
-        )}
         <Image
           src="/images/wave bg.jpg"
           alt="Ocean waves background"
           fill
           priority
           quality={75}
-          className={`object-cover transition-opacity duration-700 ${imageLoaded ? 'opacity-100' : 'opacity-0'}`}
+          className="object-cover"
           sizes="100vw"
           onLoad={() => setImageLoaded(true)}
         />
+        {!imageLoaded && (
+          <div className="absolute inset-0 flex items-center justify-center bg-seacrop-dark/50">
+            <div className="w-8 h-8 border-2 border-seacrop-turquoise border-t-transparent rounded-full animate-spin"></div>
+          </div>
+        )}
       </div>
       <div className="ocean-overlay" />
       
