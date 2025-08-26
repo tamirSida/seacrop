@@ -132,12 +132,13 @@ export default function Story() {
       <footer className="relative z-10 border-t border-white/10 bg-seacrop-dark">
         <div className="container mx-auto max-w-4xl px-8 py-40">
           <div className="flex flex-col items-center space-y-20">
+            <br/>
             
             {/* Social Icons */}
             <div className="flex items-center space-x-16 py-16 pt-24">
               <a
                 href="mailto:arik@seacrop.co"
-                className="flex items-center justify-center w-16 h-16 rounded-full border-2 border-white/20 text-white hover:text-seacrop-turquoise hover:border-seacrop-turquoise transition-all duration-300 group"
+                className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-white/20 text-white hover:text-seacrop-turquoise hover:border-seacrop-turquoise transition-all duration-300 group"
                 title="Email"
               >
                 <i className="fas fa-envelope text-xl group-hover:scale-110 transition-transform duration-300"></i>
@@ -147,7 +148,7 @@ export default function Story() {
                 href="https://www.linkedin.com/company/seacrop-ltd/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center w-16 h-16 rounded-full border-2 border-white/20 text-white hover:text-seacrop-turquoise hover:border-seacrop-turquoise transition-all duration-300 group"
+                className="flex items-center justify-center w-10 h-10 rounded-full border-2 border-white/20 text-white hover:text-seacrop-turquoise hover:border-seacrop-turquoise transition-all duration-300 group"
                 title="LinkedIn"
               >
                 <i className="fab fa-linkedin text-xl group-hover:scale-110 transition-transform duration-300"></i>
@@ -159,6 +160,7 @@ export default function Story() {
               <p className="text-white/60 text-sm">
                 © 2025 SeaCrop. Small Particles. Global Impact.
               </p>
+              <br/>
             </div>
             
           </div>

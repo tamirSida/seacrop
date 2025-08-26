@@ -222,3 +222,43 @@ body {
     opacity: 0;
   }
 }
+
+/* Mobile-specific fixes */
+@media (max-width: 640px) {
+  /* Fix logo overflow on mobile */
+  .fade-in-up img {
+    max-width: 280px !important;
+    width: 280px !important;
+  }
+  
+  /* Make buttons side by side on mobile with smaller size */
+  .fade-in-up.delay-3 {
+    flex-direction: row !important;
+    gap: 0.75rem !important;
+    padding-top: 1.5rem !important;
+  }
+  
+  .fade-in-up.delay-3 button,
+  .fade-in-up.delay-3 a {
+    width: auto !important;
+    min-width: 140px !important;
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+    font-size: 1rem !important;
+    flex: 1 !important;
+    max-width: 150px !important;
+  }
+  
+  /* Add more space between buttons and bottom */
+  .fade-in-up.delay-3 {
+    margin-bottom: 2rem !important;
+  }
+  
+  /* Fix main container padding */
+  main {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+}

@@ -21,7 +21,7 @@ export default function Home() {
                 width={600}
                 height={180}
                 priority
-                className="w-80 sm:w-96 md:w-[500px] lg:w-[600px] h-auto water-logo"
+                className="w-80 sm:w-96 md:w-[500px] lg:w-[600px] h-auto"
                 style={{ margin: '0 auto', display: 'block' }}
               />
             </div>
@@ -56,23 +56,6 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="fade-in-up delay-3 pt-12">
-            <div className="flex justify-center">
-              <div className="animate-bounce">
-                <svg
-                  className="w-6 h-6 text-seacrop-turquoise"
-                  fill="none"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                </svg>
-              </div>
-            </div>
-          </div>
         </div>
       </main>
 
