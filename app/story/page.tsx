@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Story() {
   return (
@@ -16,7 +17,7 @@ export default function Story() {
           
           {/* Logo at top - links to home */}
           <div className="mb-32 pt-16">
-            <a href="/" className="inline-block hover:scale-105 transition-transform duration-300">
+            <Link href="/" className="inline-block hover:scale-105 transition-transform duration-300">
               <Image
                 src="/SeaCrop Circular Logo Lockup/PNG/SeaCrop Circular Logo Lockup.png"
                 alt="SeaCrop Logo"
@@ -26,7 +27,7 @@ export default function Story() {
                 className="w-16 h-16 sm:w-20 sm:h-20"
                 style={{ filter: 'brightness(0) invert(1)' }}
               />
-            </a>
+            </Link>
           </div>
 
           {/* Header */}
@@ -44,8 +45,8 @@ export default function Story() {
             <div className="fade-in-up delay-2">
               <p className="text-xl leading-relaxed text-white font-light">
                 <span className="text-3xl font-normal">Seven years ago</span>, our journey began with a simple question 
-                asked in casual conversation: <em className="italic">'How can we feed the world 
-                more affordably?'</em> What followed was a relentless pursuit of 
+                asked in casual conversation: <em className="italic">&lsquo;How can we feed the world 
+                more affordably?&rsquo;</em> What followed was a relentless pursuit of 
                 solutions that could change the way the world thinks about nutrition at scale.
               </p>
             </div>
@@ -55,7 +56,7 @@ export default function Story() {
             <div className="fade-in-up delay-2">
               <p className="text-xl leading-relaxed text-white font-light">
                 Co-founder <strong className="font-semibold">Itai Katz</strong>, a PhD physicist at Technion University 
-                in Israel, began experimenting after hours in his own kitchen. He wanted to understand whether the ocean's smallest organisms, 
+                in Israel, began experimenting after hours in his own kitchen. He wanted to understand whether the ocean&apos;s smallest organisms, 
                 <strong className="font-semibold">phytoplankton</strong>, could hold the key to feeding billions sustainably. What he discovered challenged 
                 conventional thinking.
               </p>
@@ -81,7 +82,7 @@ export default function Story() {
 
             <div className="fade-in-up delay-2 space-y-20">
               <p className="text-xl leading-relaxed text-white font-light">
-                Recognising the potential of Itai's work, <strong className="font-semibold">Shahar</strong> joined as a 
+                Recognising the potential of Itai&apos;s work, <strong className="font-semibold">Shahar</strong> joined as a 
                 co-founder, taking on the practical execution of these early experiments. His ability to translate technical concepts 
                 into working systems became the bridge between breakthrough science and functional application. 
                 Together, Itai and Shahar built the first steps of what would become <strong className="font-bold">SeaCrop</strong>.
@@ -89,7 +90,7 @@ export default function Story() {
               
               <p className="text-xl leading-relaxed text-white/90 font-light">
                 When <strong className="font-semibold">Arik Pinto</strong> came on board, bringing the operational 
-                expertise to match Itai's technical vision and Shahar's executional drive, SeaCrop truly began to take shape.
+                expertise to match Itai&apos;s technical vision and Shahar&apos;s executional drive, SeaCrop truly began to take shape.
               </p>
             </div>
 
@@ -97,7 +98,7 @@ export default function Story() {
 
             <div className="fade-in-up delay-2">
               <p className="text-xl leading-relaxed text-white font-light">
-                Our technology doesn't just aim to create sustainable nutrition. By deploying our fibre 
+                Our technology doesn&apos;t just aim to create sustainable nutrition. By deploying our fibre 
                 curtains in <em className="italic">eutrophic waters</em> - areas suffering from nutrient overload and 
                 oxygen depletion - we also help restore balance to marine ecosystems, reducing oceanic dead zones while creating 
                 a scalable, ocean-friendly feed source.
@@ -114,7 +115,7 @@ export default function Story() {
               </p>
               
               <p className="text-xl leading-relaxed text-white/90 font-light">
-                This is more than technology. It's a <strong className="font-semibold">promise to the ocean</strong>, 
+                This is more than technology. It&apos;s a <strong className="font-semibold">promise to the ocean</strong>, 
                 to the planet, and to every life it nourishes: a future where 
                 food security and environmental balance go hand in hand.
               </p>

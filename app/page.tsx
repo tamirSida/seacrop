@@ -100,7 +100,7 @@ export default function Home() {
               </div>
 
               <p className="text-white/60 text-sm mt-6">
-                We'd love to hear from you
+                We&apos;d love to hear from you
               </p>
             </div>
           </div>
