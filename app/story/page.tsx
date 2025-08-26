@@ -74,7 +74,7 @@ export default function Story() {
               
               <p className="text-xl leading-relaxed text-white/90 font-light">
                 This approach opened up the possibility of farming plankton efficiently, at scale, and in 
-                harmony with the ocean's natural systems.
+                harmony with the ocean&apos;s natural systems.
               </p>
             </div>
 
